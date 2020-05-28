@@ -5,16 +5,25 @@
   "main": "lib/index.js",
   "scripts": {
     "dev": "nodemon lib/index.js -w lib",
-    "start": "node lib/index.js"
+    "start": "node lib/index.js",
+    "prettier:inspect": "prettier --check \"./**/*.{js,jsx,json,css,scss}\"",
+    "prettier:write": "prettier --write \"./**/*.{js,jsx,json,css,scss}\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run prettier:write"
+    }
+  },
   "dependencies": {
     "dotenv": "^8.2.0",
     "node-telegram-bot-api": "^0.50.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "husky": "^4.2.5",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
   }
 }
