@@ -1,0 +1,17 @@
+{
+  "name": "chillicode-health-checker-bot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-telegram-bot-api": "^0.50.0",
+    "socks5-https-client": "^1.2.1"
+  }
+}
