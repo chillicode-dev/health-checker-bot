@@ -1,3 +1,6 @@
-# Chillicode Health Checker Bot
+# 🤖 Chillicode Health Checker Bot
 
-Telegram bot that checks HTTP and HTTPS response status on customizable schedule
+Бот Telegram, который проверяет статус ответа HTTP и HTTPS по настраиваемому расписанию.
+
+## Информация
+README в процессе составления...
