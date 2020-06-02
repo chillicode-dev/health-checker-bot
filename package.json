@@ -9,9 +9,12 @@
     "prettier:inspect": "prettier --check \"./**/*.{js,jsx,json,css,scss}\"",
     "prettier:write": "prettier --write \"./**/*.{js,jsx,json,css,scss}\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "telegram",
+    "bot"
+  ],
+  "author": "Igor Sebelev <igor@chillicode.ru>",
+  "license": "MIT",
   "husky": {
     "hooks": {
       "pre-commit": "npm run prettier:write"
