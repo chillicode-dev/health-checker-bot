@@ -21,6 +21,7 @@
     }
   },
   "dependencies": {
+    "array-uniq": "^2.1.0",
     "dotenv": "^8.2.0",
     "mongoose": "^5.9.16",
     "ms": "^2.1.2",
