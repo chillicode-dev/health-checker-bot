@@ -1,6 +1,6 @@
 {
   "name": "chillicode-health-checker-bot",
-  "version": "1.0.0-alfa",
+  "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
   "repository": "https://github.com/chillicode-dev/health-checker-bot",
