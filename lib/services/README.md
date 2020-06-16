@@ -32,3 +32,29 @@ pingService.on('ping-success', () => {});
 pingService.on('ping-fail', failedUrls => {});
 pingService.stop();
 ```
+
+## PingServiceManager
+
+Управляет массивом сервисом для каждого отдельно взятого чата. 
+Хранит, выполняет создание, поиск и удаление экземпляров класса `PingService` по `chatId`.
+
+Пример использования:
+
+```javascript
+const pingServiceManager = new PingServiceManager();
+const chatId = 12345678;
+
+// Добавление инстанса
+pingServiceManager.create(chatId);
+
+// Получение инстанса по ID чата
+const pingService = pingServiceManager.get(chatId);
+
+// Удаление инстанса по ID чата
+pingServiceManager.delete(chatId);
+```
+
+## TelegramBot
+Наследник класса [NodeTelegramBotApi](https://github.com/yagop/node-telegram-bot-api/blob/master/src/telegram.js).
+
+Используется для кастомного форматирования сообщений.
