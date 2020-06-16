@@ -77,7 +77,7 @@ class PingService extends EventEmitter {
 }
 ```
 
-Подробнее о сервисах можно почитать в `lib/services/README.md`
+Подробнее о сервисах можно почитать в [lib/services/README.md](https://github.com/chillicode-dev/health-checker-bot/blob/master/lib/services/README.md)
 
 ## Лицензия
 
