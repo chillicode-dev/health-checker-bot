@@ -35,7 +35,7 @@
 | TELEGRAM_BOT_TOKEN     | Да           | Токен, полученный от BotFather                                                                                                 |
 | TELEGRAM_BOT_ROOT_USER | Да           | Имя пользователя Telegram, который является root-пользователем для данного бота                                                |
 | HTTP_PROXY_ADDR        | Нет          | Прокси сервер в формате `http://username:password@host:port`, если Telegram по каким-либо причинам заблокирован в вашей стране |
-| MONGODB_CONNECTION     | Да           | Строка подключения к базе данных MongoDB в формате `mongodb+srv://username:password@clustername.mongodb.net/<dbname>`          |
+| MONGODB_CONNECTION     | Да           | Строка подключения к базе данных MongoDB в формате `mongodb+srv://username:password@clustername.mongodb.net/dbname`            |
 | PM2_PROCESS_NAME       | Да           | Название pm2 процесса (по умолчанию health-checker-bot)                                                                        |
 
 ## Доступные команды
