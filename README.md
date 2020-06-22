@@ -18,7 +18,7 @@
 1. Зарегистрировать свой бот у [@BotFather](https://t.me/botfather) [по инструкции](https://core.telegram.org/bots#6-botfather)
 2. Сохранить выданный токен в надежном месте
 3. Склонировать проект на ваш сервер/локальную машину
-4. Выполнить установку [MongoDB](https://www.mongodb.com/) локально или создть кластер в [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+4. Выполнить установку [MongoDB](https://www.mongodb.com/) локально или создать кластер в [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
 5. Выполнить `npm ci`
 6. Скопировать файл `.env.example` в `.env`
 7. Заполнить `.env` файл необходимыми переменными окружения (описаны ниже в таблице)
